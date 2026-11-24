@@ -1,0 +1,10 @@
+replicaCount: 1
+
+defaultTitle: "Simonas Etherpad"
+defaultText: "✍️ Assign yourself a user and share your ideas! ✍️"
+
+image:
+  repository: registry.lab.example.com:8443/simonas
+  name: etherpad
+  tag: latest
+  pullPolicy: IfNotPresent
